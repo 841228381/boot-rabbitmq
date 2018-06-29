@@ -1,0 +1,14 @@
+server:
+    port: 8080
+    context-path: /rabbitmq
+
+spring:
+    application:
+            name: spring-boot-rabbitmq
+    rabbitmq:
+            host: 127.0.0.1
+            port: 5672
+            username: rabbitmq
+            password: 123456
+            publisher-confirms: true
+            virtual-host: rabbitmq
